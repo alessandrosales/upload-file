@@ -1,0 +1,13 @@
+doctype html
+html
+	head
+		meta(charset='utf8')
+		title Form
+	body
+		form(action='/recebe' method='POST' enctype="multipart/form-data")
+			label
+				b File: 
+				input(type='file' name='file')
+			br
+			label
+				input(type='submit')
